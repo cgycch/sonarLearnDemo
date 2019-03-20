@@ -23,11 +23,17 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+		<dependency>
+		    <groupId>org.sonarsource.scanner.maven</groupId>
+		    <artifactId>sonar-maven-plugin</artifactId>
+		    <version>3.6.0.1398</version>
+		</dependency>
 	</dependencies>
-
+	
 	<build>
 		<finalName>sonarLearnDemo</finalName>
-	<!-- 	<pluginManagement>
+		<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.sonarsource.scanner.maven</groupId>
@@ -35,7 +41,7 @@
 					<version>3.6.0.1398</version>
 				</plugin>
 			</plugins>
-		</pluginManagement> -->
+		</pluginManagement> 
 	</build>
 
 </project>
