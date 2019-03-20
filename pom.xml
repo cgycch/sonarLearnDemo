@@ -27,7 +27,7 @@
 
 	<build>
 		<finalName>sonarLearnDemo</finalName>
-		<pluginManagement>
+	<!-- 	<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.sonarsource.scanner.maven</groupId>
@@ -35,7 +35,7 @@
 					<version>3.6.0.1398</version>
 				</plugin>
 			</plugins>
-		</pluginManagement>
+		</pluginManagement> -->
 	</build>
 
 </project>
